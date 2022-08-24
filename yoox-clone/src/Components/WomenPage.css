@@ -1,11 +1,14 @@
 .womenPage {
     background-color: rgb(240, 235, 235);
+    margin-top: 130px;
 }
 /* womenpage navbar css start */
 .top_navbar {
     width: 100%;
     height: 35px;
     background-color: rgb(47, 46, 46);
+    position: fixed;
+    top: 95px;
 }
 .womenPage_navbar{
     width: 60%;
@@ -124,3 +127,178 @@
     padding-top: 60px;
 }
 /* womenPage_posterBelow css end */
+
+/* New arrival page css start */
+.womenPage_newArrival {
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newArrival {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.newArrival_items {
+    width: 22%;
+    height: 100%;
+    background-color: white;
+}
+.newArrival > h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.newArrival > p {
+    text-transform: uppercase;
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-decoration: underline;
+    padding-top: 10px;
+
+}
+.newArrival_items > h1 {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.newArrival_items > h2 {
+    font-size: 13px;
+    padding-top: 20px;
+}
+.newArrival_items > p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+.newArrival_items > p > del {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newArrival_items > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+/* New arrival page css end */
+
+/* Popular brand css start */
+.womenPage_popularBrand {
+    width: 100%;
+    height: 950px;
+    background-color: white;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+.popularBrand__leftRight {
+    width: 28%;
+    height: 83%;
+}
+.popularBrand__leftRight > img {
+    width: 100%;
+    height: auto;
+}
+.popularBrand__leftRight > h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.popularBrand__leftRight > p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+.popularBrand__center {
+    width: 34%;
+    height: 100%;
+}
+.popularBrand__center > img {
+    width: 100%;
+    height: auto;
+}
+.popularBrand__center > h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.popularBrand__center > p {
+    font-size: 14px;
+    padding-top: 5px;
+}
+/* Popular brand css end */
+
+/* 8 by my side css start */
+.womenPage__eightMySide {
+    width: 85%;
+    height: 643px;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.eightMySide__big {
+    width: 70%;
+    height: 100%;
+    margin-right: -170px;
+}
+.eightMySide__big > img {
+    width: 100%;
+    height: auto;
+}
+.eightMySide__small {
+    width: 22%;
+    height: 80%;
+    background-color: white;
+}
+.eightMySide__small > img {
+    width: 100%;
+    height: auto;
+}
+.eightMySide__small > h1 {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.eightMySide__small > p {
+    font-size: 13px;
+    padding-top: 20px;
+}
+.eightMySide__small > h4 {
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 8px;
+}
+/* 8 by my side css end */
+
+/* Love yourself css start */
+.womenPage__loveYourSelf {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.loveYourSelf {
+    width: 50%;
+    height: auto;
+}
+.loveYourSelf > img {
+    width: 100%;
+    height: auto;
+}
+/* Love youeself css end */
