@@ -11,6 +11,8 @@
     align-items: center;
     border-top: 1px solid rgb(233, 231, 231);
     background-color: rgb(255, 253, 253);
+    position: fixed;
+    top: 0px;
 }
 
 .top_left{
@@ -72,6 +74,8 @@
     background-color: rgb(255, 253, 253);
     border-top: 1px solid rgb(233, 231, 231);
     border-bottom: 1px solid rgb(233, 231, 231);
+    position: fixed;
+    top: 30px;
 }
 
 .empty{
