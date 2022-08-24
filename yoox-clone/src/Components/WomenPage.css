@@ -1,0 +1,126 @@
+.womenPage {
+    background-color: rgb(240, 235, 235);
+}
+/* womenpage navbar css start */
+.top_navbar {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(47, 46, 46);
+}
+.womenPage_navbar{
+    width: 60%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.womenPage_navbar > p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    color: rgb(237, 233, 233);
+}
+/* womenpage navbar css end */
+
+/* womenpage poster css start */
+.womenPage_poster{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+}
+.womenPage_poster__disscount {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(8, 124, 248) , rgb(251, 255, 0));
+}
+.womenPage_poster__disscount > h2 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.womenPage_poster__disscount > p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.womenPage_poster > img {
+    width: 100%;
+    height: 580px;
+}
+/* womenpage poster css end */
+
+/* womenPage_posterBelow css start */
+.womenPage_posterBelow {
+    width: 80%;
+    height: 730px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left__image {
+    width: 35%;
+    height: 100%;
+}
+.left__image > img {
+    width: 100%;
+    height: auto;
+}
+.right__image {
+    width: 35%;
+    height: 100%;
+}
+.right__image > img {
+    width: 100%;
+    height: auto;
+}
+.image_below {
+    align-content: center;
+}
+.image_below > h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.image_below > p {
+    font-size: 14px;
+    padding-top: 20px;
+}
+.image_below > h4 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+.center__image {
+    width: 30%;
+    height: 100%;
+    margin-top: -100px;
+}
+.all_design_tags {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.all_design_tags > h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.all_design_tags > p {
+    font-weight: bold;
+    padding-top: 10px;
+}
+.all_design_tags > h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-top: 60px;
+}
+/* womenPage_posterBelow css end */
