@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Search2Icon, StarIcon, UnlockIcon } from "@chakra-ui/icons";
-import { Input, Modal, ModalCloseButton, ModalContent, ModalFooter, ModalOverlay, useDisclosure } from '@chakra-ui/react'
+import { Icon, Search2Icon } from "@chakra-ui/icons";
+import { Input, Modal, ModalCloseButton, ModalContent, ModalFooter, ModalOverlay, useDisclosure } from '@chakra-ui/react';
+import { FiHeart } from "react-icons/fi";
+import { MdShoppingCart } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -54,8 +56,8 @@ const Navbar = () => {
                         </ModalContent>
                     </Modal>
                     {/* modal end */}
-                    <StarIcon />
-                    <UnlockIcon />
+                    <Icon as={FiHeart} />
+                    <Icon as={MdShoppingCart} />
                 </div>
                 <div className="empty"></div>
             </div>

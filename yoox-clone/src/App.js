@@ -1,5 +1,5 @@
 import './App.css';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Allroutes from './Routes/AllRoutes';
 
@@ -11,7 +11,7 @@ function App() {
       {/* Allroutes is added */}
       <Allroutes />
       {/* Footer added */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
