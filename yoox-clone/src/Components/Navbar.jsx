@@ -24,7 +24,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="top_right">
-                    <p>Register</p>
+                    <Link to="/register"><p>Register</p></Link>
                     <p>Login</p>
                 </div>
                 <div className="empty"></div>
