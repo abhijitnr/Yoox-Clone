@@ -55,7 +55,7 @@ function Footer() {
                             </Stack>
                         </RadioGroup>
                     </div>
-                    <Checkbox defaultChecked><p className='check__para'>I consent to receive YOOX <br /> newsletters via email. For further <br /> information, please consult the <br /> <span>Privacy Policy</span></p></Checkbox>
+                    <Checkbox><p className='check__para'>I consent to receive YOOX <br /> newsletters via email. For further <br /> information, please consult the <br /> <span>Privacy Policy</span></p></Checkbox>
 
                     <button className='signup__botton'>SIGN UP</button>
                 </div>

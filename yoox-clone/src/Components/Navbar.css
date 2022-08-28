@@ -53,7 +53,7 @@
     align-items: center;
 }
 
-.top_right>p{
+.top_right p{
     font-weight: bold;
     font-size: 12px;
     color: rgb(55, 55, 55);
@@ -117,3 +117,25 @@
 }
 
 /* Middle navbar css end */
+
+
+/* Modal CSS */
+.chakra-modal__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.chakra-modal__body > .chakra-input {
+    background-color: rgb(242, 241, 241);
+    border: none;
+    border-radius: 0px;
+}
+.chakra-modal__body > .chakra-button {
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+}

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { Icon, Search2Icon } from "@chakra-ui/icons";
-import { Input, Modal, ModalCloseButton, ModalContent, ModalFooter, ModalOverlay, useDisclosure } from '@chakra-ui/react';
+import { Button, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, useDisclosure } from '@chakra-ui/react';
 import { FiHeart } from "react-icons/fi";
 import { MdShoppingCart } from "react-icons/md";
 
@@ -24,8 +24,21 @@ const Navbar = () => {
                 </div>
 
                 <div className="top_right">
-                    <p>Register</p>
-                    <p>Login</p>
+                    <Link to="/register"><p>Register</p></Link>
+                    <p onClick={onOpen}>Login</p>
+
+                    <Modal isOpen={isOpen} onClose={onClose}>
+                        <ModalOverlay />
+                        <ModalContent>
+                            <ModalHeader>It’s great to see you again.</ModalHeader>
+                            <ModalCloseButton />
+                            <ModalBody>
+                                <Input placeholder="E-MAIL" />
+                                <Input placeholder="PASSWORD" />
+                                <Button onClick={onClose}>LOG IN</Button>
+                            </ModalBody>
+                        </ModalContent>
+                    </Modal>
                 </div>
                 <div className="empty"></div>
             </div>
@@ -44,9 +57,10 @@ const Navbar = () => {
                 </div>
 
                 <div className="middle_right">
-                    <Search2Icon onClick={onOpen} />
+                    <Search2Icon />
+                    {/* onClick={onOpen}  */}
                     {/* modal insert */}
-                    <Modal isOpen={isOpen} onClose={onClose}>
+                    {/* <Modal isOpen={isOpen} onClose={onClose}>
                         <ModalOverlay />
                         <ModalContent>
                             <ModalCloseButton />
@@ -54,7 +68,7 @@ const Navbar = () => {
                                 <Input placeholder="Search..." />
                             </ModalFooter>
                         </ModalContent>
-                    </Modal>
+                    </Modal> */}
                     {/* modal end */}
                     <Icon as={FiHeart} />
                     <Icon as={MdShoppingCart} />
