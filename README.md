@@ -2,5 +2,5 @@
 
 # Project code : -ambiguous-cap-532
 
-- Navbar & Footer
-  ![navbarfooter] (navbarfooter.png)
+- Navbar & Footer Page
+  ![Navbar & Footer](navbarfooter.png)
