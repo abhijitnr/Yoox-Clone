@@ -1,2 +1,6 @@
-# -ambiguous-cap-532
-This is a clone of a shopping website name https://www.yoox.com/us
+# Project Name : YOOX-CLONE ( https://www.yoox.com/us )
+
+# Project code : -ambiguous-cap-532
+
+- Navbar and Footer
+  ![Navbar and Footer] (navbarfooter.png)
