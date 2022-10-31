@@ -1,6 +1,8 @@
 # Project Name : YOOX-CLONE ( https://www.yoox.com/us )
 
-# Project code : -ambiguous-cap-532
+## Live Project Link : https://yoox-clone-pi.vercel.app/
+
+## Project code : -ambiguous-cap-532
 
 - Navbar & Footer Page
 
